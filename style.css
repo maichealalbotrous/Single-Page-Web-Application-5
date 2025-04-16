@@ -1,0 +1,250 @@
+:root{
+--bluevaulet:#4f57df;
+--p:rgba(159, 159, 159, 0.98);
+
+}
+body{
+    background-image: url(./home-banner.png);
+}
+
+.navbar
+{
+    box-shadow: 0 0 40px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: black;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:focus,
+.navbar .navbar-nav .nav-item .nav-link:hover,
+    .navbar .navbar-nav .nav-item .nav-link:hover{    
+color: var(--bluevaulet);
+}
+
+
+
+
+.header_section button{
+    border:3px solid var(--bluevaulet) ;
+    border-radius: 10%;
+    transition: 0.3s;
+
+}
+.header_section .header_img img{
+max-width: 350px;
+}
+
+.header_section button:focus,
+.header_section button:hover{
+background-image: linear-gradient(to right , #10439F 20%,#874CCC,#C65BCF,#F27BBD);
+opacity: 0.8;
+box-shadow: 0 0 10px var(--bluevaulet);
+}
+
+.header_section h2,h1,p{
+    font-weight: 500;
+    font-size: 30px;
+}
+.header_section h2::after{
+    content: '';
+    width: 200px;
+
+
+
+}
+
+.header_section h1{
+    font-size: 60px;
+}
+
+.main_section_one{
+    margin-top: 350px;
+}
+
+
+
+.main_section_one .img_2 img{
+    max-width: 350px;
+}
+
+.main_section_one .span{
+    max-width: 350px;
+}
+.main_section_one .ME_2 span{
+font-size: 50px;
+letter-spacing: 20px;
+}
+
+.main_section_one .main_span{
+    margin-top: 40px;
+    color: var(--p);
+    /* max-width: 600px; */
+}
+
+.main_section_one .main_span p{
+font-size: 15px;
+}
+
+
+
+.main_section_one  button{
+    border:3px solid var(--bluevaulet) ;
+    border-radius: 10%;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.main_section_one button:focus,
+.main_section_one button:hover{
+background-image: linear-gradient(to right , #10439F 20%,#874CCC,#C65BCF,#F27BBD);
+opacity: 0.8;
+box-shadow: 0 0 10px var(--bluevaulet);
+}
+
+.main_section_two .logo .parent_rwo .rwo .logo_1{
+    border: 1px solid rgba(63, 63, 63, 0.186);
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: 10px;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.main_section_two .logo .parent_rwo .rwo .logo_1:hover{
+    box-shadow: 0 0 20px;
+    scale: 1.1;
+}
+
+
+.main_section_two .logo .parent_rwo .rwo .logo_1 image{
+    width: 40%;             
+    
+}
+
+
+.main_section_two .cull .parent{
+    width: 60%;
+    height: 100%;
+    background-color: #f4d6e668;
+    border-radius: 10px;
+}
+
+
+.main_section_two .cull .parent .span .ten{
+    font-size: 6rem;
+    color:blueviolet;
+}
+
+
+
+.main_section_two .cull .parent .span .ten-img{
+    float: left;
+}
+
+
+.main_section_two .cull .call h2{
+    color: blue;
+}
+
+
+.section_three .main_section_three h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.section_three .main_section_three p{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+p{
+    font-weight: 100;
+    font-size: 20px;   
+}
+
+
+
+.section_three .main_section_three_ICONS h2{
+    font-weight: bold;
+}
+
+
+.section_three .main_section_three_ICONS p{
+    font-weight: 100;
+    font-size: 20px;
+    
+}
+.main_section_three{
+    margin-top: 160px;
+}
+.main_section_three_ICONS{
+    margin-top: 200px;
+}
+
+.section_three .main_section_three_ICONS .img_section_three{
+    background-color: rgba(195, 195, 195, 0.314);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+    margin-right: 2px;
+
+}
+
+.section_three .main_section_three_ICONS .img_section_three:hover,
+.section_three .main_section_three_ICONS .img_section_three:focus
+{
+transform: scale(1.1);
+box-shadow: 0 0 20px;
+}
+
+.section_four{
+    margin-top: 160px;
+}
+
+.section_four .buttom button{
+    border:3px solid var(--bluevaulet) ;
+    border-radius: 10%;
+    transition: 0.3s;
+}
+
+.section_four .buttom button:hover,
+.section_four .buttom button:focus{
+    background-image: linear-gradient(to right , #10439F 20%,#874CCC,#C65BCF,#F27BBD);
+opacity: 0.8;
+box-shadow: 0 0 10px var(--bluevaulet);
+}
+
+.section_five .img-t{
+    padding: 10px;
+    box-shadow:  0 0 10px;
+    border-radius: 20px;
+}
+
+.section_six {
+  color: white;
+  padding: 100px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px;
+    background-image: linear-gradient(to right , #10439F 20%,#874CCC,#C65BCF,#F27BBD);
+}
+
+.section_six button{
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.section_six input{
+    border-radius: 10px;
+    border:none;
+    outline: none;
+}
+
+ .footer_icon i:hover{
+color: blueviolet;
+cursor: pointer;
+}
